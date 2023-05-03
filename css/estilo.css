@@ -34,6 +34,7 @@
     padding-top: 5%;
     font-family: 'Brasika';
     color: #ff5d7d;
+    font-size: 43px;
     }
 
 
@@ -66,10 +67,10 @@
     padding-left: 5%;
     padding-right: 5%;
     }
-    
- 
 
-
+    dd{
+      text-align: start;
+    }
     
 .cardContainer
 {
@@ -174,8 +175,14 @@
 
 /*Colors for front and back applied here*/
 .cardContainer:first-child .card .front {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 30%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 
 .cardContainer:first-child .card .back {
@@ -183,16 +190,28 @@
 }
 
 .cardContainer:nth-child(2) .card .front {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 24%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 .cardContainer:nth-child(2) .card .back {
     background: #fcd4c3;
 }
 
 .cardContainer:nth-child(3) .card .front {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 40%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 .cardContainer:nth-child(3) .card .back {
     background: #fcd4c3;
@@ -200,8 +219,14 @@
 
 .cardContainer:nth-child(4) .card .front
 {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 33%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 .cardContainer:nth-child(4) .card .back
 {
@@ -210,8 +235,14 @@
 
 .cardContain:first-child .card .front
 {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 40%;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 .cardContain:first-child .card .back
 {
@@ -220,8 +251,14 @@
 
 .cardContain:nth-child(2) .card .front
 {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 40%;
+  padding-left: 0%;
+  padding-right: 0%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 .cardContain:nth-child(2) .card .back
 {
@@ -230,8 +267,13 @@
 
 .cardContain:nth-child(3) .card .front
 {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 40%;
+  
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 .cardContain:nth-child(3) .card .back
 {
@@ -240,8 +282,14 @@
 
 .cardContain:nth-child(4) .card .front
 {
-    background-image: url('../img/borboletinha.png');
-    background-size: auto;
+  width: 100%;
+  padding-top: 40%;
+  padding-left: 0%;
+  padding-right: 0%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  font-family: Brasika;
 }
 .cardContain:nth-child(4) .card .back
 {
